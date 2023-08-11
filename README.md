@@ -3,7 +3,7 @@
 
 ## توضیحات
 
-پنل مدیریت [فروشگاه 🔗](https://front-ecommerce-nextjs.vercel.app/) که با استفاده از [Next.js](https://nextjs.org/) و [Tailwindcss](https://tailwindcss.com/) پیاده سازی شده است. تصاویر این پروژه در پلتفرم [Cloudinary](https://cloudinary.com/) ذخیره میشوند.
+پنل مدیریت [فروشگاه 🔗](https://ecommerce-nextjs-front.vercel.app/) که با استفاده از [Next.js](https://nextjs.org/) و [Tailwindcss](https://tailwindcss.com/) پیاده سازی شده است. تصاویر این پروژه در پلتفرم [Cloudinary](https://cloudinary.com/) ذخیره میشوند.
 
 ## فهرست مطالب
 
