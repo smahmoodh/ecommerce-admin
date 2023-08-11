@@ -3,17 +3,8 @@
 
 ## توضیحات
 
-پنل مدیریت [فروشگاه <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-</svg>
-](https://front-ecommerce-nextjs.vercel.app/)  
+پنل مدیریت [فروشگاه 🔗](https://front-ecommerce-nextjs.vercel.app/) که با استفاده از [Next.js](https://nextjs.org/) و [Tailwindcss](https://tailwindcss.com/) پیاده سازی شده است. تصاویر این پروژه در پلتفرم [Cloudinary](https://cloudinary.com/) ذخیره میشوند.
 
-[فروشگاه <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-</svg>
-](https://front-ecommerce-nextjs.vercel.app/) 
-
-که با Next.js پیاده سازی شده است.
 ## فهرست مطالب
 
 
@@ -42,32 +33,45 @@ yarn install
 *توجه داشته باشید که در مرحله قبل از package manager استفاده کردید.*
 
 ```bash
-    npm start
+npm run dev
 ```
 ```bash
-    yarn run
+yarn run
 ```
 
 # پکیج ها
 
 در این پروژه از پکیج های زیر استفاده شده است:
 
-![GitHub package.json dependency version (subfolder of monorepo)](https://img.shields.io/github/package-json/dependency-version/smahmoodh/online-shop/react)
+![GitHub package.json dependency version (subfolder of monorepo)](https://img.shields.io/github/package-json/dependency-version/smahmoodh/ecommerce-admin/next)
 
-![GitHub package.json dependency version (subfolder of monorepo)](https://img.shields.io/github/package-json/dependency-version/smahmoodh/online-shop/react-router-dom)
+![GitHub package.json dependency version (subfolder of monorepo)](https://img.shields.io/github/package-json/dependency-version/smahmoodh/ecommerce-admin/react)
 
-![GitHub package.json dependency version (subfolder of monorepo)](https://img.shields.io/github/package-json/dependency-version/smahmoodh/online-shop/webpack)
+![GitHub package.json dependency version (subfolder of monorepo)](https://img.shields.io/github/package-json/dependency-version/smahmoodh/ecommerce-admin/next-auth)
 
-![GitHub package.json dependency version (subfolder of monorepo)](https://img.shields.io/github/package-json/dependency-version/smahmoodh/online-shop/antd)
+![GitHub package.json dependency version (subfolder of monorepo)](https://img.shields.io/github/package-json/dependency-version/smahmoodh/ecommerce-admin/tailwindcss)
 
-![GitHub package.json dependency version (subfolder of monorepo)](https://img.shields.io/github/package-json/dependency-version/smahmoodh/online-shop/swiper)
+![GitHub package.json dependency version (subfolder of monorepo)](https://img.shields.io/github/package-json/dependency-version/smahmoodh/ecommerce-admin/%40cloudinary%2Freact)
 
-![GitHub package.json dependency version (subfolder of monorepo)](https://img.shields.io/github/package-json/dependency-version/smahmoodh/online-shop/react-device-detect)
+![GitHub package.json dependency version (subfolder of monorepo)](https://img.shields.io/github/package-json/dependency-version/smahmoodh/ecommerce-admin/mongoose)
 
+![GitHub package.json dependency version (subfolder of monorepo)](https://img.shields.io/github/package-json/dependency-version/smahmoodh/ecommerce-admin/multiparty)
+
+![GitHub package.json dependency version (subfolder of monorepo)](https://img.shields.io/github/package-json/dependency-version/smahmoodh/ecommerce-admin/axios)
+
+![GitHub package.json dependency version (subfolder of monorepo)](https://img.shields.io/github/package-json/dependency-version/smahmoodh/ecommerce-admin/react-sortablejs)
+
+![GitHub package.json dependency version (subfolder of monorepo)](https://img.shields.io/github/package-json/dependency-version/smahmoodh/ecommerce-admin/react-spinners)
+
+![GitHub package.json dependency version (subfolder of monorepo)](https://img.shields.io/github/package-json/dependency-version/smahmoodh/ecommerce-admin/sweetalert2)
 
 ## منابع
 
-- [Ant Design](https://ant.design/)
-- [Swiper](https://swiperjs.com/)
-- [Webpack](https://webpack.js.org/)
-- [React Device Detect](https://github.com/duskload/react-device-detect)
+- [Next.js](https://nextjs.org/)
+- [Next-Auth.js](https://next-auth.js.org/)
+- [Tailwindcss](https://tailwindcss.com/)
+- [Cloudinary](https://cloudinary.com/)
+- [Mongoosejs](https://mongoosejs.com/)
+- [Multiparty](https://www.npmjs.com/package/multiparty)
+- [Sweetalert2](https://www.npmjs.com/package/sweetalert2)
+- [react-spinners](https://www.npmjs.com/package/react-spinners)
