@@ -1,38 +1,73 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# پروژه فروشگاه آنلاین با استفاده از  React
 
-## Getting Started
 
-First, run the development server:
+## توضیحات
 
+پنل مدیریت [فروشگاه <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+</svg>
+](https://front-ecommerce-nextjs.vercel.app/)  
+
+[فروشگاه <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+</svg>
+](https://front-ecommerce-nextjs.vercel.app/) 
+
+که با Next.js پیاده سازی شده است.
+## فهرست مطالب
+
+
+- [نصب](#نصب)
+- [استفاده](#استفاده)
+- [پکیج‌ها](#پکیج-ها)
+- [منابع](#منابع)
+
+# نصب
+
+پس از Clone کردن پروژه با استفاده از یکی از دستورهای زیر باید Package های استفاده شده را نصب کنید:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+npm i
+```
+```bash
+npm install
+```
+```bash
+yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# استفاده
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+پس از نصب تمام پکیج‌های مورد نیاز با استفاده از یکی از دستورهای زیر میتوانید پروژه را اجرا کنید:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+*توجه داشته باشید که در مرحله قبل از package manager استفاده کردید.*
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+    npm start
+```
+```bash
+    yarn run
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+# پکیج ها
 
-## Learn More
+در این پروژه از پکیج های زیر استفاده شده است:
 
-To learn more about Next.js, take a look at the following resources:
+![GitHub package.json dependency version (subfolder of monorepo)](https://img.shields.io/github/package-json/dependency-version/smahmoodh/online-shop/react)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![GitHub package.json dependency version (subfolder of monorepo)](https://img.shields.io/github/package-json/dependency-version/smahmoodh/online-shop/react-router-dom)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![GitHub package.json dependency version (subfolder of monorepo)](https://img.shields.io/github/package-json/dependency-version/smahmoodh/online-shop/webpack)
 
-## Deploy on Vercel
+![GitHub package.json dependency version (subfolder of monorepo)](https://img.shields.io/github/package-json/dependency-version/smahmoodh/online-shop/antd)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![GitHub package.json dependency version (subfolder of monorepo)](https://img.shields.io/github/package-json/dependency-version/smahmoodh/online-shop/swiper)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![GitHub package.json dependency version (subfolder of monorepo)](https://img.shields.io/github/package-json/dependency-version/smahmoodh/online-shop/react-device-detect)
+
+
+## منابع
+
+- [Ant Design](https://ant.design/)
+- [Swiper](https://swiperjs.com/)
+- [Webpack](https://webpack.js.org/)
+- [React Device Detect](https://github.com/duskload/react-device-detect)
