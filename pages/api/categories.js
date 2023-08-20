@@ -1,11 +1,11 @@
 import {Category} from "@/models/Category";
 import {mongooseConnect} from "@/lib/dbConnection";
-import {isAdminRequest} from "@/pages/api/auth/[...nextauth]";
+// import {isAdminRequest} from "@/pages/api/auth/[...nextauth]";
 
 export default async function handler(req, res) {
     const {method} = req;
     await mongooseConnect();
-    await isAdminRequest(req, res);
+    // await isAdminRequest(req, res);
 
 
     if (method === 'GET') {

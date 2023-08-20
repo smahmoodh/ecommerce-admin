@@ -5,14 +5,17 @@ import Logo from "@/components/Logo";
 
 export default function Layout({children}) {
     const [showNav, setShowNav] = useState(false);
-    const {data: session} = useSession();
+    const { data: session } = useSession();
+    const signInHandler = async () => {
+        signIn('google', { callbackUrl: '/' })
+    }
     if (!session) {
         return (
             <div className='bg-bgGray w-screen h-screen flex items-center'>
                 <div className='text-center w-full'>
                     <button
                         className='btn btn-primary'
-                        onClick={() => signIn('google')}
+                        onClick={signInHandler}
                     >
                         Login With Google
                     </button>

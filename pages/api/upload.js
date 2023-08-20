@@ -1,6 +1,6 @@
 import multiparty from 'multiparty';
 import {v2 as cloudinary} from 'cloudinary'
-import {isAdminRequest} from "@/pages/api/auth/[...nextauth]";
+// import {isAdminRequest} from "@/pages/api/auth/[...nextauth]";
 import {mongooseConnect} from "@/lib/dbConnection";
 
 
@@ -10,7 +10,7 @@ cloudinary.config({
 });
 export default async function handle(req, res) {
     await mongooseConnect();
-    await isAdminRequest(req, res);
+    // await isAdminRequest(req, res);
     console.log('API Upload');
     const form = new multiparty.Form();
 
@@ -40,7 +40,8 @@ export default async function handle(req, res) {
                 // console.log("success", JSON.stringify(result, null,  2));
             })
             .catch((error) => {
-                console.log("error", JSON.stringify(error, null, 2));
+                console.log("error", error);
+                // console.log("error", JSON.stringify(error, null, 2));
             })
 
     }
